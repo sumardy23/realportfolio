@@ -51,9 +51,29 @@
     height: 170px;
     }
     .nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    }
+    .list-group-item.active > .badge,
+    .nav-pills > .active > a > .badge {
+    color: #ffa3c7;
+    background-color: #fff;
+    }
+    .nav-pills > li {
+    float: left;
+    }
+    .nav-pills > li > a {
+    border-radius: 4px;
+    }
+    .nav-pills > li + li {
+    margin-left: 2px;
+    }
+    .nav-pills > li.active > a,
+    .nav-pills > li.active > a:hover,
+    .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #ffa3c7;
     }
   </style>
 </head>
@@ -62,7 +82,7 @@
     <h1>Latisha Sumardy</h1>
   </header>
   <section>
-    <ul class="nav">
+    <ul class="nav nav-pills">
       <li><a href="">Home</a></li>
       <li><a href="https://sumardy23.github.io/realportfolio/aboutme.html">About Me</a></li>
       <li><a href="https://sumardy23.github.io/realportfolio/core4.html">Core 4</a></li>
