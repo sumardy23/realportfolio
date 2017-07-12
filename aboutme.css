@@ -1,7 +1,72 @@
-h1 {
-  font-size = 200px;
-  background-color = blue;
-}
-body {
-  text-align = center;
-}
+@font-face{
+      font-family:Title;
+      src: url('https://raw.githubusercontent.com/sumardy23/realportfolio/blob/gh-pages/Better%20Together%20Script.ttf') format('truetype');
+    }
+    h1{
+      font-family: Arial;
+      font-size: 150px;
+    }
+    body{
+      text-align: center;
+      background-color: #f7ece3;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .left {
+      text-align: left;
+    }
+    h3 {
+      font-family: Title;
+      font-size: 35px;
+    }
+    h4{
+      font-family: Arial;
+      font-size:25px;
+      text-align: left;
+    }
+    h2{
+      font-family: Arial;
+      font-size: 50px;
+    }
+    .pfont{
+      font-family:Verdana;
+      font-size: 20px;
+    }
+    .footerimg {
+      height: 60px;
+    }
+    .bottom{
+    margin-bottom: 5%;
+    }
+    .footer{
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    img {
+    height: 170px;
+    }
+    .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    }
+    .list-group-item.active > .badge,
+    .nav-pills > .active > a > .badge {
+    color: #ffa3c7;
+    background-color: #fff;
+    }
+    .nav-pills > li {
+    /*float: left;*/
+    }
+    .nav-pills > li > a {
+    border-radius: 4px;
+    }
+    .nav-pills > li + li {
+    margin-left: 2px;
+    }
+    .nav-pills > li.active > a,
+    .nav-pills > li.active > a:hover,
+    .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #ffa3c7;
+    }
