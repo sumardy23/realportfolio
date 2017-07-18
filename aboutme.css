@@ -45,31 +45,11 @@
     img {
     height: 170px;
     }
-    .nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    }
-    .list-group-item.active > .badge,
-    .nav-pills > .active > a > .badge {
-    color: #ffa3c7;
-    background-color: #fff;
-    }
-    .nav-pills > li {
-    /*float: left;*/
-    }
-    .nav-pills > li > a {
-    border-radius: 4px;
-    }
-    .nav-pills > li + li {
-    margin-left: 2px;
-    }
-    .nav-pills > li.active > a,
-    .nav-pills > li.active > a:hover,
-    .nav-pills > li.active > a:focus {
-    color: #fff;
-    background-color: #ffa3c7;
-    }
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
 .head{
       background-color:#f98bc6;
 }
