@@ -6,9 +6,11 @@
       font-family: Arial;
       font-size: 150px;
     }
+body {
+background-color: #f7ece3;
+}
     .body{
       text-align: center;
-      background-color: #f7ece3;
       margin-left: 5%;
       margin-right: 5%;
     }
@@ -61,7 +63,7 @@ li {
     float: left;
 }
 
-a {
+.a {
     display: block;
     padding: 8px;
     background-color: #f98bc6;
